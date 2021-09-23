@@ -1,4 +1,5 @@
 FROM tf-gpu
+RUN apt install git
 COPY automl automl
 WORKDIR /automl/efficientdet
 # COPY requirements.txt requirements.txt
