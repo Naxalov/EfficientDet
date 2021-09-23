@@ -1,6 +1,6 @@
 FROM tf-gpu
 ARG DEBIAN_FRONTEND=noninteractive
-RUN apt install git
+RUN apt install git -y
 COPY automl automl
 WORKDIR /automl/efficientdet
 # COPY requirements.txt requirements.txt
