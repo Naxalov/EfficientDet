@@ -1,1 +1,1 @@
-https://github.com/google/automl
+git clone https://github.com/google/automl
