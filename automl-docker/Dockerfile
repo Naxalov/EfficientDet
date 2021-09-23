@@ -1,4 +1,5 @@
 FROM tf-gpu
+ARG DEBIAN_FRONTEND=noninteractive
 RUN apt install git
 COPY automl automl
 WORKDIR /automl/efficientdet
